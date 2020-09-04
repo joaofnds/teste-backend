@@ -12,7 +12,7 @@ import {
   ClassSerializerInterceptor,
 } from '@nestjs/common'
 import { ContentsService } from './contents.service'
-import { Content } from './content.model'
+import { Content } from './entities/content.entity'
 import { CreateContentDTO } from './dto/create-content.dto'
 import { UpdateContentDTO } from './dto/update-content.dto'
 

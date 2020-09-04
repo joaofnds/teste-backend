@@ -1,5 +1,5 @@
-import { CreateContentDTO } from './dto/create-content.dto'
-import { UpdateContentDTO } from './dto/update-content.dto'
+import { CreateContentDTO } from '../dto/create-content.dto'
+import { UpdateContentDTO } from '../dto/update-content.dto'
 import { Expose } from 'class-transformer'
 
 export class Content {

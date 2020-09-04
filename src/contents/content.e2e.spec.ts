@@ -3,7 +3,7 @@ import { Test } from '@nestjs/testing';
 import { INestApplication, HttpStatus } from '@nestjs/common';
 import { ContentsService } from './contents.service';
 import { newDummyContentDTO } from './content-spec-helper';
-import { Content } from './content.model';
+import { Content } from './entities/content.entity'
 import { ContentsModule } from './contents.module';
 import { classToPlain } from 'class-transformer';
 

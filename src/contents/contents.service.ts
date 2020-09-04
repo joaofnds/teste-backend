@@ -1,5 +1,5 @@
 import { Injectable } from '@nestjs/common'
-import { Content } from './content.model'
+import { Content } from './entities/content.entity'
 import { CreateContentDTO } from './dto/create-content.dto'
 import { ContentNotFoundError } from './errors/content-not-found-error'
 import { UpdateContentDTO } from './dto/update-content.dto'

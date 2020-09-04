@@ -1,5 +1,5 @@
-import { newDummyContent } from './content-spec-helper'
-import { UpdateContentDTO } from './dto/update-content.dto'
+import { newDummyContent } from '../content-spec-helper'
+import { UpdateContentDTO } from '../dto/update-content.dto'
 
 describe('Content', () => {
   describe('markAsSeen', () => {

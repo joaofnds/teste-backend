@@ -1,5 +1,5 @@
 import { CreateContentDTO } from './dto/create-content.dto'
-import { Content } from './content.model'
+import { Content } from './entities/content.entity'
 
 export function newDummyContentDTO(id = 1): CreateContentDTO {
   const createContentDTO = new CreateContentDTO()
